@@ -14,8 +14,8 @@
     while True:
         camera.face_detect.recognize()
         if camera.face_detect.face_num != None:
-            print(str('人脸数量：') + str(camera.face_detect.face_num))
-            print(str('置信度：') + str(camera.face_detect.max_score))
+            print(str('Number of faces：') + str(camera.face_detect.face_num))
+            print(str('Confidence：') + str(camera.face_detect.max_score))
         time.sleep_ms(20)
 
 

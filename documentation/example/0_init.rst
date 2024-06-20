@@ -23,6 +23,6 @@
 
 mPython图形化示例
 -----------
-.. figure:: /_static/image/example/face_detect/face_detect.png
+.. figure:: /_static/image/init.png
     :align: center
     :width: 1080

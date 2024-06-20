@@ -14,8 +14,8 @@
     while True:
         camera.yolo_detect.recognize()
         if camera.yolo_detect.id != None:
-            print(str('类别：') + str(camera.yolo_detect.category_list[camera.yolo_detect.id]))
-            print(str('置信度：') + str(camera.yolo_detect.max_score))
+            print(str('category：') + str(camera.yolo_detect.category_list[camera.yolo_detect.id]))
+            print(str('Confidence：') + str(camera.yolo_detect.max_score))
         time.sleep_ms(20)
 
 

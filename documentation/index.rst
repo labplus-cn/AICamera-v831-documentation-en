@@ -45,6 +45,7 @@ AI摄像头帮助文档
     example/9_visual_tracking.rst
     example/10_yolo_detect.rst
     example/11_color.rst
+    example/12_track.rst
 
 
 .. toctree::
