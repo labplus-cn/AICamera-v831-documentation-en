@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, 深圳盛思科教文化有限公司 www.labplus.cn
+# This file is distributed under the same license as the AI Camera 3.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Camera 3.0 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-19 18:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: ../programming_mode/hardware_connection.rst:2
+msgid "硬件连接方式"
+msgstr "Hardware connection method"
+
+#: ../programming_mode/hardware_connection.rst:7
+msgid "一、AI摄像头与乐动掌控"
+msgstr "1. AI Camera and Live Control"
+
+#: ../programming_mode/hardware_connection.rst:9
+msgid "1、连接硬件"
+msgstr "1. Connect the hardware"
+
+#: ../programming_mode/hardware_connection.rst:11
+msgid "如图示将AI摄像头连接至P15、P16引脚"
+msgstr "Connect the AI ​​camera to the P15 and P16 pins as shown"
+
+#: ../programming_mode/hardware_connection.rst:23
+msgid "2、编程"
+msgstr "2. Programming"
+
+#: ../programming_mode/hardware_connection.rst:24
+msgid "打开mPython软件，连接上乐动掌控，选择连接的引脚，刷入程序"
+msgstr "Open the mPython software, connect to the Ledong Control, select the connected pin, and flash the program"
+
+#: ../programming_mode/hardware_connection.rst:26
+msgid "控制台会输出“==AI摄像头通信成功==”，摄像头会进入识别模式"
+msgstr "The console will output "==AI camera communication successful==", and the camera will enter recognition mode"
+
+#: ../programming_mode/hardware_connection.rst:34
+msgid "二、摄像头与电脑连接"
+msgstr "2. Connect the camera to the computer"
+
+#: ../programming_mode/index.rst:2
+msgid "连接编程方式"
+msgstr "Connection Programming"
+
+#: ../programming_mode/index.rst:5
+msgid "软件mPython编程"
+msgstr "Software mPython Programming"
+
+#: ../programming_mode/index.rst:6
+msgid "`mPython下载链接 <https://labplus.cn/software>`_"
+msgstr "`mPython Download Link <https://labplus.cn/software>`_"
+
+#: ../programming_mode/index.rst:8
+msgid "既支持代码模式编程也支持图形化模式编程，适合所有人使用。"
+msgstr "It supports both code mode programming and graphical mode programming, suitable for everyone."
+
+#: ../programming_mode/index.rst:9
+msgid "内置AI摄像头案例，快速上手。"
+msgstr "Built-in AI camera case, get started quickly."
+
+#: ../programming_mode/index.rst:17
+msgid "adb工具连接"
+msgstr "adb tool connection"
+
+#: ../programming_mode/index.rst:19
+msgid "通过usb口连接电脑，使用adb工具可连接至AI摄像头系统终端 adb shell"
+msgstr "Connect to the computer via the USB port and use the adb tool to connect to the AI ​​camera system terminal adb shell"
+

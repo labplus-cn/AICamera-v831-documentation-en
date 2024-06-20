@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, 深圳盛思科教文化有限公司 www.labplus.cn
+# This file is distributed under the same license as the AI Camera 3.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Camera 3.0 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-19 18:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../hardware_introduction/10_size.rst:2
+msgid "尺寸"
+msgstr ""
+
+#: ../hardware_introduction/11_xx.rst:2
+msgid "xx"
+msgstr ""
+
+#: ../hardware_introduction/1_introduce.rst:2
+#: ../hardware_introduction/index.rst:2
+msgid "AI摄像头介绍"
+msgstr ""
+
+#: ../hardware_introduction/1_introduce.rst:3
+msgid "AI摄像是一个用来实现相关AI应用的传感器，可以实现如二维码识别，手写数字识别、物体分类、人脸检测、人脸识别等各种AI应用，主控采用全志的V831，内置NPU。作为一款可编程传感器，可以通过连接主控（如掌控板、乐动掌控等），利用mpython等编程软件，用户编写各种应用场景代码，实现相关AI应用场景，学习AI相关知识。"
+msgstr ""
+
+#: ../hardware_introduction/2_characteristic.rst:2
+msgid "主要特点"
+msgstr ""
+
+#: ../hardware_introduction/2_characteristic.rst:4
+msgid "可编程，内置相关AI模型，配合上位机软件，用户可编写程序，调用相关模型，实现相关AI应用编程。"
+msgstr ""
+
+#: ../hardware_introduction/2_characteristic.rst:5
+msgid "传感器带一个100万像素摄像头和一个1.3寸TFT彩屏，用于图像采集和显示。"
+msgstr ""
+
+#: ../hardware_introduction/2_characteristic.rst:6
+msgid "带一个HY2.0 4PIN接口，通过串口通信跟主控连接。"
+msgstr ""
+
+#: ../hardware_introduction/2_characteristic.rst:7
+msgid "采用tina Linux系统，内置标准python，可实现python编程。"
+msgstr ""
+
+#: ../hardware_introduction/2_characteristic.rst:8
+msgid "内置A B按键，麦克风、功放、喇叭，可实现相关音频功能。"
+msgstr ""
+
+#: ../hardware_introduction/3_function.rst:2
+#: ../hardware_introduction/3_function.rst:5
+msgid "板载功能"
+msgstr ""
+
+#: ../hardware_introduction/3_function.rst:6
+msgid "运行linux，用户可以把它当做一台微型电脑，在上面学习python编程。"
+msgstr "Run Linux, users can use it as a microcomputer and learn Python programming on it."
+
+#: ../hardware_introduction/3_function.rst:7
+msgid "配备1.3寸彩屏，可实现交互式图形界面编程，图像显示。"
+msgstr ""
+
+#: ../hardware_introduction/3_function.rst:8
+msgid "配合乐动掌控，可拓展外接传感器。"
+msgstr ""
+
+#: ../hardware_introduction/3_function.rst:9
+msgid "简单易用的编程环境。"
+msgstr ""
+
+#: ../hardware_introduction/3_function.rst:10
+msgid "低功耗，采用type-c USB 接口供电。"
+msgstr ""
+
+#: ../hardware_introduction/4_system_framework_diagram.rst:2
+msgid "系统框架图"
+msgstr ""
+
+#: ../hardware_introduction/4_system_framework_diagram.rst:5
+msgid "待更新"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:2
+#: ../hardware_introduction/5_hardware_parameters.rst:7
+msgid "硬件参数"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:6
+msgid "参数"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "序号"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "硬件"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "型号规格"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "备注"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "1"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "CPU"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "全志V831, ARM CortexTM-A7, 800Mhz"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "2"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "屏幕"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "1.3寸TFT彩屏，分辨率：240*240"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "3"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "摄像头"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "100万像素摄像头 Ov9732"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "4"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "NPU"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "算力0.2TOPS，算子：Conv, Activation, Pooling, BN, LRN, FC/Inner Product"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "5"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "运行内存"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "64MB DDR2 RAM"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "6"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "存储"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "16G TF卡"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "不可拆卸"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "7"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "按键A/B"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "8"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "按键reset"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "按下可重启AI摄像头"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "9"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "麦克风"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "方向: 全向 频率范围: 100Hz ~ 10kHz灵敏度: -46dB ±2dB @ 94dB SPL 信噪比: 58dB 阻抗: 2.2 kOhms"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "音频输入"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "10"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "扬声器"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "1609喇叭,输出功率0.5W,音频输出"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "11"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "RGB灯"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "全彩RGB*1"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "12"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "LED灯"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "白色LED*2"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "13"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "通信接口"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "HY2.0 4PIN 串口通信，波特率1500000"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "14"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "USB接口"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "TYPE-C"
+msgstr ""
+
+#: ../hardware_introduction/5_hardware_parameters.rst:1
+msgid "USB通信及固件烧录接口"
+msgstr ""
+
+#: ../hardware_introduction/6_pin_function.rst:2
+msgid "引脚功能说明"
+msgstr ""
+
+#: ../hardware_introduction/7_sensor.rst:2
+msgid "板载传感器"
+msgstr ""
+
+#: ../hardware_introduction/7_sensor.rst:6
+msgid "六轴陀螺仪"
+msgstr ""
+
+#: ../hardware_introduction/7_sensor.rst:7
+#: ../hardware_introduction/7_sensor.rst:30
+#: ../hardware_introduction/7_sensor.rst:44
+msgid "例程::"
+msgstr ""
+
+#: ../hardware_introduction/7_sensor.rst:29
+msgid "磁传感器"
+msgstr ""
+
+#: ../hardware_introduction/7_sensor.rst:43
+msgid "气压计"
+msgstr ""
+
+#: ../hardware_introduction/index.rst:3
+msgid "hardware_introduction/1_introduce.rst hardware_introduction/2_characteristic.rst hardware_introduction/3_function.rst hardware_introduction/4_system_framework_diagram.rst hardware_introduction/5_hardware_parameters.rst hardware_introduction/6_pin_function.rst hardware_introduction/8_firmware.rst"
+msgstr ""

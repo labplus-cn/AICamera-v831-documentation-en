@@ -1,0 +1,1353 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, 深圳盛思科教文化有限公司 www.labplus.cn
+# This file is distributed under the same license as the AI Camera 3.0 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Camera 3.0 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-19 18:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gui/index.rst:4
+msgid "GUI"
+msgstr ""
+
+#: ../gui/index.rst:5
+msgid "widgets/acr widgets/bar"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:2
+msgid "进度条"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:4
+#: ../gui/widgets/btn.rst:4
+#: ../gui/widgets/cb.rst:4
+#: ../gui/widgets/chart.rst:4
+#: ../gui/widgets/label.rst:4
+#: ../gui/widgets/msgbox.rst:5
+#: ../gui/widgets/slider.rst:4
+#: ../gui/widgets/switch.rst:4
+msgid "概述"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:5
+msgid "条对象上有一个背景和一个指示器。指示器的宽度根据条的当前值进行设置。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:7
+msgid "如果对象的宽度小于其高度，则可以创建垂直条。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:9
+msgid "不仅可以结束，还可以设置条的起始值，从而改变指示器的起始位置。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:12
+#: ../gui/widgets/btn.rst:9
+#: ../gui/widgets/cb.rst:8
+#: ../gui/widgets/chart.rst:10
+#: ../gui/widgets/img.rst:10
+#: ../gui/widgets/label.rst:8
+#: ../gui/widgets/led.rst:7
+#: ../gui/widgets/msgbox.rst:12
+#: ../gui/widgets/slider.rst:9
+#: ../gui/widgets/switch.rst:9
+msgid "零件和样式"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:13
+msgid "进度条的主要部分称为 LV_BAR_PART_BG ，它使用典型的背景样式属性。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:15
+msgid "LV_BAR_PART_INDIC 是一个虚拟部件，还使用了所有典型的背景属性。默认情况下，指示器的最大尺寸与背景的尺寸相同，但是在其中设置正的填充值 LV_BAR_PART_BG 将使指示器变小。（负值会使它变大）如果在指标上使用了值样式属性，则将根据指标的当前大小来计算对齐方式。 例如，中心对齐的值始终显示在指示器的中间，而不管其当前大小如何。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:19
+#: ../gui/widgets/btn.rst:29
+#: ../gui/widgets/cb.rst:16
+#: ../gui/widgets/chart.rst:38
+#: ../gui/widgets/dropdown.rst:22
+#: ../gui/widgets/img.rst:14
+#: ../gui/widgets/label.rst:12
+#: ../gui/widgets/led.rst:11
+#: ../gui/widgets/msgbox.rst:22
+#: ../gui/widgets/slider.rst:17
+#: ../gui/widgets/switch.rst:21
+msgid "用法"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:20
+msgid "值和范围 可以通过 lv.Bar.set_value(new_value, lv.ANIM.ON/lv.ANIM.OFF) 设置新值。该值以一个范围（最小值和最大值）解释，可以使用 lv.Bar.set_range(min, max) 进行修改。默认范围是 1 ~ 100。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:23
+msgid "lv.Bar.set_value中的新值可以根据最后一个参数 (lv.ANIM.ON/lv.ANIM.OFF) 设置是否带有动画。 动画的时间可以通过 lv.Bar.set_anim_time(100) 进行调整。时间以毫秒为单位。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:26
+msgid "也可以使用 lv.Bar.set_start_value(new_value, lv.ANIM.ON/lv.ANIM.OFF) 设置进度条的起始值"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:29
+msgid "模式"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:30
+msgid "如果已通过 lv.Bar.set_type(Lv.BAR.TYPE_SYMMETRICAL) 启用，则条形可以对称地绘制为零（从零开始，从左至右绘制）。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:33
+#: ../gui/widgets/btn.rst:61
+#: ../gui/widgets/cb.rst:45
+#: ../gui/widgets/chart.rst:126
+#: ../gui/widgets/dropdown.rst:64
+#: ../gui/widgets/img.rst:77
+#: ../gui/widgets/label.rst:71
+#: ../gui/widgets/led.rst:20
+#: ../gui/widgets/msgbox.rst:37
+#: ../gui/widgets/slider.rst:43
+#: ../gui/widgets/switch.rst:37
+msgid "事件"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:34
+#: ../gui/widgets/label.rst:72
+msgid "仅 通用事件 是按对象类型发送的。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:36
+msgid "了解有关`事件`_ 的更多信息。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:39
+#: ../gui/widgets/btn.rst:69
+#: ../gui/widgets/cb.rst:55
+#: ../gui/widgets/chart.rst:132
+#: ../gui/widgets/dropdown.rst:72
+#: ../gui/widgets/img.rst:83
+#: ../gui/widgets/label.rst:77
+msgid "按键"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:40
+msgid "对象类型不处理任何输入按键。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:42
+#: ../gui/widgets/btn.rst:78
+#: ../gui/widgets/chart.rst:135
+#: ../gui/widgets/dropdown.rst:81
+msgid "进一步了解 按键 。"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:45
+#: ../gui/widgets/btn.rst:81
+#: ../gui/widgets/cb.rst:67
+#: ../gui/widgets/chart.rst:138
+#: ../gui/widgets/dropdown.rst:84
+#: ../gui/widgets/img.rst:89
+#: ../gui/widgets/label.rst:83
+#: ../gui/widgets/led.rst:32
+#: ../gui/widgets/msgbox.rst:59
+#: ../gui/widgets/slider.rst:61
+#: ../gui/widgets/switch.rst:55
+msgid "范例"
+msgstr ""
+
+#: ../gui/widgets/bar.rst:48
+msgid "例：简单的进度条::"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:2
+msgid "按钮"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:5
+msgid "按钮是简单的矩形对象。它们源自容器，因此也可以提供布局和配合。此外，可以启用它以在单击时自动进入检查状态。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:10
+msgid "这些按钮仅具有一种主要样式，称为 lv.Btn.PART_MAIN ，并且可以使用以下组中的所有属性："
+msgstr ""
+
+#: ../gui/widgets/btn.rst:12
+msgid "背景(background)"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:14
+msgid "边界(border)"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:16
+msgid "边框(outline)"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:18
+msgid "阴影(shadow)"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:20
+msgid "数值(value)"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:22
+msgid "模式(pattern)"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:24
+msgid "过渡(transitions)"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:26
+msgid "启用布局或适合时，它还将使用padding属性。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:30
+msgid "为了简化按钮的使用，可以使用 lv.Btn.get_state() 来获取按钮的状态。它返回以下值之一："
+msgstr ""
+
+#: ../gui/widgets/btn.rst:32
+msgid "lv.BTN_STATE.RELEASED 松开"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:34
+msgid "lv.BTN_STATE.PRESSED 被点击"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:36
+msgid "lv.BTN_STATE.CHECKED_RELEASED 点击后松开"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:38
+msgid "lv.BTN_STATE.CHECKED_PRESSED 重复点击"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:40
+msgid "lv.BTN_STATE.DISABLED 禁用"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:42
+#: ../gui/widgets/cb.rst:42
+msgid "lv.BTN_STATE.CHECKED_DISABLED"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:44
+msgid "使用 lv.Btn.set_state(lv.BTN_STATE. ...) 可以手动更改按钮状态。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:49
+msgid "可检查"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:50
+msgid "可以使用 lv.Btn.set_checkable(btn, true) 将按钮配置为切换按钮。在这种情况下，单击时，按钮将自动进入 lv.STATE_CHECKED 状态，或再次单击时返回到lv.STATE_CHECKED状态。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:53
+msgid "布局和适配"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:54
+msgid "与容器类似，按钮也具有布局和适合属性。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:56
+msgid "lv.Btn.set_layout(lv.LAYOUT. ...) 设置布局。默认值为 lv.LAYOUT_CENTER 。因此，如果添加标签，则标签将自动与中间对齐，并且无法通过 lv.Obj.set_pos() 移动。您可以使用 lv.Btn.set_layout(lv.LAYOUT.OFF) 禁用布局。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:58
+msgid "lv.Btn.set_fit/fit2/fit4(lv.FIT.MAX/NONE/PARENT/TIGHT) 允许根据子代，父代和适合类型自动设置按钮的宽度和/或高度。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:62
+msgid "除了 通用事件 外，按钮还发送以下特殊事件："
+msgstr ""
+
+#: ../gui/widgets/btn.rst:64
+msgid "lv.EVENT_VALUE_CHANGED-切换按钮时发送。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:66
+#: ../gui/widgets/chart.rst:129
+#: ../gui/widgets/dropdown.rst:69
+msgid "了解有关 事件 的更多信息。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:70
+#: ../gui/widgets/dropdown.rst:73
+msgid "以下按键由按钮处理："
+msgstr ""
+
+#: ../gui/widgets/btn.rst:72
+msgid "lv.KEY_RIGHT/UP-如果启用了切换，则进入切换状态。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:74
+msgid "lv.KEY_LEFT/DOWN-如果启用了切换，则进入非切换状态。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:76
+msgid "请注意， lv.K​​EY_ENTER 的状态已转换为 lv.EVENT_PRESSED/PRESSING/RELEASED 等。"
+msgstr ""
+
+#: ../gui/widgets/btn.rst:82
+msgid "简单的按钮::"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:2
+msgid "复选框"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:5
+msgid "复选框(Checkbox)对象是从 Button 背景构建的，Button 背景还包含Button项目符号和 Label ，以实现经典的复选框。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:9
+msgid "该复选框的主要部分称为 LV_CHECKBOX_PART_BG 。它是“项目符号”及其旁边的文本的容器。背景使用所有典型的背景样式属性。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:11
+msgid "项目符号是真正的 基础对象(lv.obj) ，可以用 LV_CHECKBOX_PART_BULLET 引用。项目符号会自动继承背景状态。因此，背景被按下时，项目符号也会进入按下状态。项目符号还使用所有典型的背景样式属性。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:13
+msgid "标签没有专用部分。因为文本样式属性始终是继承的，所以可以在背景样式中设置其样式。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:17
+msgid "文本 可以通过 lv.Checkbox.set_text(\"New text\") 函数修改文本。它将动态分配文本。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:20
+msgid "要设置静态文本，请使用 lv.Checkbox.set_static_text(txt) 。这样，将仅存储 txt 指针，并且在存在复选框时不应释放该指针。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:22
+msgid "选中/取消选中 可以通过 lv.Checkbox.set_checked(true/false) 手动选中/取消选中复选框。设置为 true 将选中该复选框，而设置为 false 将取消选中该复选框。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:25
+msgid "禁用复选框 要禁用复选框，调用 lv.Checkbox.set_disabled(true) ."
+msgstr ""
+
+#: ../gui/widgets/cb.rst:28
+msgid "获取/设置复选框状态 可以使用 lv.Checkbox.get_state() 函数获取Checkbox的当前状态，该函数返回当前状态。可以使用 lv.Checkbox.set_state(state) 设置复选框的当前状态。 枚举 lv.btn_state_t 定义的可用状态为："
+msgstr ""
+
+#: ../gui/widgets/cb.rst:32
+msgid "lv.BTN_STATE.RELEASED"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:34
+msgid "lv.BTN_STATE.PRESSED"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:36
+msgid "lv.BTN_STATE.DISABLED"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:38
+msgid "lv.BTN_STATE.CHECKED_RELEASED"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:40
+msgid "lv.BTN_STATE.CHECKED_PRESSED"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:46
+#: ../gui/widgets/msgbox.rst:38
+msgid "除了 通用事件 ，复选框还支持以下 特殊事件 ："
+msgstr ""
+
+#: ../gui/widgets/cb.rst:48
+msgid "lv.EVENT.VALUE_CHANGED - 切换复选框时发送。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:50
+msgid "请注意，与通用输入设备相关的事件（如LV_EVENT_PRESSED）也以非活动状态发送。需要使用lv.Cb.is_inactive() 检查状态，以忽略非活动复选框中的事件。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:52
+#: ../gui/widgets/img.rst:80
+#: ../gui/widgets/label.rst:74
+#: ../gui/widgets/led.rst:23
+#: ../gui/widgets/msgbox.rst:44
+#: ../gui/widgets/slider.rst:48
+#: ../gui/widgets/switch.rst:42
+msgid "了解有关 事件 的更多内容。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:56
+msgid "复选框可处理以下按键："
+msgstr ""
+
+#: ../gui/widgets/cb.rst:58
+msgid "LV_KEY_RIGHT/UP - 如果启用了切换，则进入切换状态"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:60
+msgid "LV_KEY_LEFT/DOWN - 如果启用了切换，则进入非切换状态"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:62
+msgid "请注意，与往常一样，LV_K​​EY_ENTER的状态会转换为LV_EVENT_PRESSED / PRESSING / RELEASED等。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:64
+#: ../gui/widgets/img.rst:86
+#: ../gui/widgets/label.rst:80
+#: ../gui/widgets/led.rst:29
+#: ../gui/widgets/msgbox.rst:56
+#: ../gui/widgets/slider.rst:58
+#: ../gui/widgets/switch.rst:52
+msgid "了解有关 按键 的更多内容。"
+msgstr ""
+
+#: ../gui/widgets/cb.rst:68
+msgid "简单复选框::"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:2
+msgid "图表"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:5
+msgid "图表是可视化数据点的基本对象。它们支持折线图（将点与线连接和/或在其上绘制点）和柱形图。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:7
+msgid "图表还支持分隔线，2 y轴，刻度线和刻度线文本。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:11
+msgid "图表的主要部分称为 LV_CHART_PART_BG ，它使用所有典型的背景属性。文本样式属性确定轴文本的样式，而线属性确定刻度线的样式。填充值在侧面增加了一些空间，因此使序列区域更小。填充也可用于为轴文本和刻度线留出空间。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:13
+msgid "该系列的背景称为 LV_CHART_PART_SERIES_BG ，它位于主要背景上。在此部分上绘制了分隔线和系列数据。除典型的背景样式属性外，分割线还使用线型属性。填充值指示此零件与轴文本之间的间隔。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:15
+msgid "LV_CHART_PART_SERIES 可以引用该系列的样式。对于列类型，使用以下属性："
+msgstr ""
+
+#: ../gui/widgets/chart.rst:17
+msgid "半径：数据点的半径"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:19
+msgid "padding_inner：相同x坐标的列之间的间隔"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:21
+msgid "如果是线型图，则使用以下属性："
+msgstr ""
+
+#: ../gui/widgets/chart.rst:23
+msgid "线属性来描述线"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:25
+msgid "点的大小半径"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:27
+msgid "bg_opa：线条下方区域的整体不透明度"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:29
+msgid "bg_main_stop：的％bg_opa在顶部以创建一个alpha褪色（0：在顶部透明，255：bg_opa在顶部）"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:31
+msgid "bg_grad_stop：底部bg_opa的百分比以创建alpha渐变（0：底部透明，255：bg_opa顶部）"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:33
+msgid "bg_drag_dir：应该 LV_GRAD_DIR_VER 允许通过bg_main_stop和bg_grad_stop进行Alpha淡入"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:35
+msgid "LV_CHART_PART_CURSOR 引用游标。可以添加任意数量的光标，并且可以通过与行相关的样式属性来设置其外观。创建游标时设置游标的颜色，并用该值覆盖 line_color 样式。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:39
+msgid "数据系列 您可以通过 lv_chart_add_series(chart, color) 向图表添加任意数量的系列。它为包含所选颜色的 lv_chart_u series_t 结构分配数据，如果不使用外部数组，如果分配了外部数组，则与该系列关联的任何内部点都将被释放，而序列指向外部数组。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:42
+msgid "系列类型 存在以下数据显示类型："
+msgstr ""
+
+#: ../gui/widgets/chart.rst:45
+msgid "LV_CHART_TYPE_NONE - 不显示任何数据。它可以用来隐藏系列。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:47
+msgid "LV_CHART_TYPE_LINE - 在两点之间画线。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:49
+msgid "LV_CHART_TYPE_COLUMN - 绘制列。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:51
+msgid "可以使用 lv_chart_set_type(chart, LV_CHART_TYPE_...) 指定显示类型。可以对类型进行“或”运算（例如 LV_CHART_TYPE_LINE ）。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:53
+msgid "修改数据 有几个选项可以设置系列数据："
+msgstr ""
+
+#: ../gui/widgets/chart.rst:56
+msgid "在数组中手动​​设置值，例如 ser1->points[3] = 7 ，然后使用 lv_chart_refresh(chart) 刷新图表。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:58
+msgid "使用 lv_chart_set_point_id(chart, ser, value, id) ，其中id是您要更新的点的索引。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:60
+msgid "使用 lv_chart_set_next(chart, ser, value) 。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:62
+msgid "使用 lv_chart_init_points(chart, ser, value) 将所有点初始化为给定值。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:64
+msgid "使用 lv_chart_set_points(chart, ser, value_array) 设置数组中的所有点。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:66
+msgid "使用 LV_CHART_POINT_DEF 作为值可使库跳过该点，列或线段的绘制。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:68
+msgid "覆盖系列的默认起点 如果希望绘图从默认点（序列的点[0]）之外的其他点开始，则可以使用 lv_chart_set_x_start_point(chart, ser, id) 函数设置替代索引，其中id是要开始的新索引位置从。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:71
+msgid "设置外部数据源 可以使用以下函数从外部数据源更新图表系列： lv_chart_set_ext_array(chart, ser, array, point_cnt ) ，其中array是lv_coord_t与point_cnt元素的外部数组。注意：更新外部数据源后，应调用 lv_chart_refresh(chart) 来更新图表。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:74
+msgid "获取当前图表信息 有四个功能可获取有关图表的信息："
+msgstr ""
+
+#: ../gui/widgets/chart.rst:77
+msgid "lv_chart_get_type(chart) 返回当前图表类型。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:79
+msgid "lv_chart_get_point_count(chart) 返回当前图表点数。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:81
+msgid "lv_chart_get_x_start_point(ser) 返回指定系列的当前绘图索引。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:83
+msgid "lv_chart_get_point_id(chart, ser, id) 返回指定系列的特定索引处的数据值。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:85
+msgid "更新模式 lv_chart_set_next 可以以两种方式运行，具体取决于更新模式："
+msgstr ""
+
+#: ../gui/widgets/chart.rst:88
+msgid "LV_CHART_UPDATE_MODE_SHIFT - 将旧数据向左移动，然后向右添加新数据。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:90
+msgid "LV_CHART_UPDATE_MODE_CIRCULAR - 循环添加新数据（如ECG图）。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:92
+msgid "可以使用 lv_chart_set_update_mode(chart, LV_CHART_UPDATE_MODE_...) 更改更新模式。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:94
+msgid "浮标个数 可以通过 lv_chart_set_point_count(chart, point_num) 修改系列中的点数。默认值为10。注意：当将外部缓冲区分配给序列时，这也会影响处理的点数。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:97
+msgid "垂直范围 可以使用 lv_chart_set_range(chart, y_min, y_max) 在y方向上指定最小值和最大值。点的值将按比例缩放。默认范围是：0..100。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:100
+msgid "分割线 水平和垂直分隔线的数量可以通过 lv_chart_set_div_line_count(chart, hdiv_num, vdiv_ 进行修改。默认设置为3条水平分割线和5条垂直分割线。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:104
+msgid "刻度线和标签"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:105
+msgid "刻度和标签可以添加到轴上。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:107
+msgid "lv_chart_set_x_tick_text(chart, list_of_values, num_tick_marks, LV_CHART_AXIS_...) 设置x轴上的刻度和文本。 list_of_values 是一个字符串，带有 '\\n' 终止文本（期望最后一个），其中包含用于刻度的文本。 list_of_values 是一个字符串，带有 '\\n' 终止文本（期望最后一个），其中包含用于刻度的文本。例如。 const char * list_of_values = \"first\\nsec\\nthird\" 。 list_of_values 可以为 NULL 。 如果设置了 list_of_values ，则 num_tick_marks 告诉两个标签之间的刻度数。如果 list_of_values 为 NULL ，则它指定滴答声的总数。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:109
+msgid "主刻度线绘制在放置文本的位置，次刻度线绘制在其他位置。 ``lv_chart_set_x_tick_length(chart, major_tick_len, minor_tick_len) `` 设置x轴上刻度线的长度。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:111
+msgid "y轴也存在相同的功能： lv_chart_set_y_tick_text 和 lv_chart_set_y_tick_length 。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:114
+msgid "光标"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:115
+msgid "可以使用 lv_chart_cursor_t * c1 = lv_chart_add_cursor(chart, color, dir); 添加光标。 dir LV_CHART_CURSOR_NONE/RIGHT/UP/LEFT/DOWN 的可能值或它们的OR-ed值，用于指示应在哪个方向上绘制光标。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:117
+msgid "lv_chart_set_cursor_point(chart, cursor, &point) 设置光标的位置。 point 是指向 lv_poin_t 变量的指针。例如。lv_point_t point = {10, 20}; 。该点相对于图表的序列区域。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:119
+msgid "lv_coord_t p_index = lv_chart_get_nearest_index_from_coord(chart, x) 告诉哪个点索引最接近X坐标（相对于序列区域）。例如，当单击图表时，它可用于将光标捕捉到一个点。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:121
+msgid "lv_chart_get_x_from_index(chart, series, id) 和 lv_chart_get_y_from_index(chart, series, id) 告诉给定点的X和Y坐标。将光标放置到给定点很有用。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:123
+msgid "可以使用 lv_chart_get_series_area(chart, &area) 检索当前系列区域，其中 area 是指向 lv_area_t 变量的指针，用于存储结果。该区域具有绝对坐标。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:127
+msgid "仅通用事件是按对象类型发送的。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:133
+#: ../gui/widgets/img.rst:84
+#: ../gui/widgets/label.rst:78
+#: ../gui/widgets/led.rst:27
+msgid "对象类型不处理任何键。"
+msgstr ""
+
+#: ../gui/widgets/chart.rst:139
+msgid "折线图"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:2
+msgid "下拉列表"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:3
+msgid "概述 下拉列表允许用户从列表中选择一个值。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:6
+msgid "下拉列表默认情况下处于关闭状态，并显示单个值或预定义的文本。激活后（通过单击下拉列表），将创建一个列表，用户可以从中选择一个选项。当用户选择新值时，该列表将被删除。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:10
+msgid "小部件和样式"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:11
+msgid "调用下拉列表的主要部分， LV_DROPDOWN_PART_MAIN 它是一个简单的 lv_obj 对象。它使用所有典型的背景属性。按下，聚焦，编辑等阶梯也照常应用。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:13
+msgid "单击主对象时创建的列表是Page。它的背景部分可以被引用， LV_DROPDOWN_PART_LIST 并为矩形本身使用所有典型的背景属性，并为选项使用文本属性。要调整选项之间的间距，请使用text_line_space样式属性。填充值可用于在边缘上留出一些空间。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:15
+msgid "页面的可滚动部分被隐藏，其样式始终为空（透明，无填充）。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:17
+msgid "滚动条可以被引用 LV_DROPDOWN_PART_SCRLBAR 并使用所有典型的背景属性。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:19
+msgid "可以 LV_DROPDOWN_PART_SELECTED 使用所有典型的背景属性引用并使用所选的选项。它将以其默认状态在所选选项上绘制一个矩形，并在按下状态下在被按下的选项上绘制一个矩形。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:23
+msgid "设定选项 选项作为带有 lv_dropdown_set_options(dropdown, options) 的字符串传递到下拉列表。选项应用 \\n 分隔。例如： \"First\\nSecond\\nThird\" 。该字符串将保存在下拉列表中，因此也可以保存在本地变量中。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:26
+msgid "lv_dropdown_add_option(dropdown, \"New option\", pos) 函数向 pos 索引插入一个新选项。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:28
+msgid "为了节省内存，还可以使用 lv_dropdown_set_static_options(dropdown, options) 从静态（常量）字符串设置选项。在这种情况下，当存在下拉列表且不能使用 lv_dropdown_add_option 时，options字符串应处于活动状态"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:30
+msgid "可以使用 lv_dropdown_set_selected(dropdown, id) 手动选择一个选项，其中id是选项的索引。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:32
+msgid "获取选择的选项 使用获取当前选择的选项 lv_dropdown_get_selected(dropdown) 。它将返回所选选项的索引。 lv_dropdown_get_selected_str(dropdown, buf, buf_size) 将所选选项的名称复制到 buf 。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:36
+msgid "方向"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:37
+msgid "该列表可以在任何一侧创建。默认值 LV_DROPDOWN_DOWN 可以通过功能进行修改。 lv_dropdown_set_dir(dropdown, LV_DROPDOWN_DIR_LEFT/RIGHT/UP/DOWN)"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:39
+msgid "如果列表垂直于屏幕之外，它将与边缘对齐。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:42
+#: ../gui/widgets/label.rst:67
+msgid "符号"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:43
+msgid "可以使用 lv_dropdown_set_symbol(dropdown, LV_SYMBOL_...) 将符号（通常是箭头）添加到下拉列表中"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:45
+msgid "如果下拉列表的方向为 LV_DROPDOWN_DIR_LEFT ，则该符号将显示在左侧，否则显示在右侧。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:47
+msgid "最大高度 可以通过 lv_dropdown_set_max_height(dropdown, height) 设置下拉列表的最大高度。默认情况下，它设置为3/4垂直分辨率。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:50
+msgid "显示所选 主要部分可以显示所选选项或静态文本。可以使用 lv_dropdown_set_show_selected(sropdown, true/false) 进行控制。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:53
+msgid "可以使用 lv_dropdown_set_text(dropdown, \"Text\") 设置静态文本。仅保存文本指针。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:55
+msgid "如果也不想突出显示所选选项，则可以将自定义透明样式用于 LV_DROPDOWN_PART_SELECTED 。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:57
+msgid "动画时间 下拉列表的打开/关闭动画时间由 lv_dropdown_set_anim_time(ddlist, anim_time) 调整。动画时间为零表示没有动画。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:60
+msgid "手动打开/关闭 要手动打开或关闭下拉列表，可以使用 lv_dropdown_open/close(dropdown, LV_ANIM_ON/OFF) 功能。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:65
+msgid "除了 通用事件 外，下拉列表还发送以下 特殊事件 ："
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:67
+msgid "LV_EVENT_VALUE_CHANGED - 选择新选项时发送。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:75
+msgid "LV_KEY_RIGHT/DOWN - 选择下一个选项。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:77
+msgid "LV_KEY_LEFT/UP - 选择上一个选项。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:79
+msgid "LY_KEY_ENTER - 应用选定的选项（发送LV_EVENT_VALUE_CHANGED事件并关闭下拉列表）。"
+msgstr ""
+
+#: ../gui/widgets/dropdown.rst:85
+msgid "简单的下拉列表::"
+msgstr ""
+
+#: ../gui/widgets/img.rst:2
+msgid "图片(lv_img)"
+msgstr ""
+
+#: ../gui/widgets/img.rst:3
+msgid "概述 图像是从Flash（作为数组）或从外部作为文件显示的基本对象。图像也可以显示符号（ LV_SYMBOL_... ）。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:6
+msgid "使用 图像解码器 接口，也可以支持自定义图像格式。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:11
+msgid "图像只有一个称为 LV_IMG_PART_MAIN 的主要部分，该部分使用典型的背景样式属性绘制背景矩形和图像属性。填充值用于使背景实际变大。 （它不会更改图像的实际大小，但仅在绘图期间应用大小修改）"
+msgstr ""
+
+#: ../gui/widgets/img.rst:15
+msgid "图片来源 为了提供最大的灵活性，图像的来源可以是："
+msgstr ""
+
+#: ../gui/widgets/img.rst:18
+msgid "代码中的变量（带有像素的C数组）。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:20
+msgid "外部存储的文件（例如SD卡上的文件）。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:22
+msgid "符号 文字。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:24
+msgid "要设置图像的来源，调用 lv_img_set_src(img, src) 。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:26
+msgid "要从PNG，JPG或BMP图像生成像素阵列，请使用 在线图像转换器工具 ，并使用其指针设置转换后的图像： lv_img_set_src(img1, &converted_img_var) ;要使变量在C文件中可见，需要使用 LV_IMG_DECLARE(converted_img_var) 进行声明。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:28
+msgid "要使用 外部文件 ，还需要使用在线转换器工具转换图像文件，但是现在应该选择二进制输出格式。还需要使用LVGL的文件系统模块，并为基本文件操作注册具有某些功能的驱动程序。进入文件系统以了解更多信息。要设置来自文件的图像，请使用 lv_img_set_src(img, \"S:folder1/my_img.bin\") 。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:30
+msgid "可以类似于 `标签`_ 设置符号。在这种情况下，图像将根据样式中指定的字体呈现为文本。它可以使用轻量级的单色“字母”代替实际图像。可以设置符号，例如 lv_img_set_src(img1, LV_SYMBOL_OK) 。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:32
+msgid "标签作为图片 图像和标签有时用于传达相同的内容。例如，描述按钮的作用。因此，图像和标签可以互换。为了处理这些图像，甚至可以使用 LV_SYMBOL_DUMMY 作为文本的前缀来显示文本。例如， lv_img_set_src(img, LV_SYMBOL_DUMMY \"Some text\") ."
+msgstr ""
+
+#: ../gui/widgets/img.rst:35
+msgid "透明度 内部（可变）和外部图像支持2种透明度处理方法："
+msgstr ""
+
+#: ../gui/widgets/img.rst:38
+msgid "Chrome keying - 具有 LV_COLOR_TRANSP (lv_conf.h) 颜色的像素将是透明的。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:40
+msgid "Alpha byte - 一个alpha字节被添加到每个像素。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:42
+msgid "调色板和Alpha指数 除了本色（RGB）颜色格式外，还支持以下格式："
+msgstr ""
+
+#: ../gui/widgets/img.rst:45
+msgid "Indexed - 索引，图像具有调色板。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:47
+msgid "Alpha indexed - Alpha索引，仅存储Alpha值。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:49
+msgid "可以在字体转换器中选择这些选项。要了解有关颜色格式的更多信息，请阅读 图像(images) 部分。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:51
+msgid "重新着色 根据像素的亮度，可以在运行时将图像重新着色为任何颜色。在不存储同一图像的更多版本的情况下，显示图像的不同状态（选中，未激活，按下等）非常有用。 可以通过在 LV_OPA_TRANSP （不重新着色，值：0）和 LV_OPA_COVER （完全重新着色，值：255）之间设置 img.intense 来启用该样式。默认值为 LV_OPA_TRANSP ，因此此功能被禁用。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:54
+msgid "自动调整尺寸 调用 lv_img_set_auto_size(image, true) 函数，将设置图像对象的大小自动设置为图像源的宽度和高度。 如果启用了自动调整大小，则在设置新文件时，对象大小将自动更改。以后，可以手动修改大小。如果图像不是屏幕，默认情况下将启用自动调整大小。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:57
+msgid "镶嵌 使用 lv_img_set_offset_x(img, x_ofs) `` 和 ``lv_img_set_offset_y(img, y_ofs) ，可以向显示的图像添加一些偏移。如果对象尺寸小于图像源尺寸，则很有用。使用offset参数，可以通过对x或y偏移量进行 动画 处理来创建 纹理图集 或“运行中的图像”效果。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:60
+msgid "转换 使用 lv_img_set_zoom(img, factor) 图像将被缩放。将 factor 设置为 256 或 LV_IMG_ZOOM_NONE 以禁用缩放。较大的值将放大图像（例如512倍），较小的值将缩小图像（例如 128 倍）。分数刻度也适用。例如： 281 为10％放大。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:63
+msgid "要旋转图像，请使用 lv_img_set_angle(img, angle) 。角度精度为0.1度，因此对于45.8°设置458。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:65
+msgid "默认情况下，旋转的枢轴点是图像的中心。可以使用 lv_img_set_pivot(img, pivot_x, pivot_y) 进行更改。 0;0是左上角。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:67
+msgid "可以使用 lv_img_set_antialias(img, true/false) 调整转换的质量。启用抗锯齿功能后，转换的质量更高，但速度较慢。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:69
+msgid "转换需要整个图像可用。因此，可以转换索引图像（ LV_IMG_CF_INDEXED_... ），仅alpha图像（ LV_IMG_CF_ALPHA_... ）或文件中的图像。换句话说，转换仅适用于存储为C数组的真彩色图像，或者自定义 图像解码器 返回整个图像。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:71
+msgid "注意，图像对象的真实坐标在变换期间不会改变。即 lv_obj_get_width/height/x/y() 将返回原始的非缩放坐标。"
+msgstr ""
+
+#: ../gui/widgets/img.rst:73
+msgid "旋转 图像可以旋转"
+msgstr ""
+
+#: ../gui/widgets/img.rst:78
+msgid "默认情况下，禁用图像对象的单击，仅发送与非输入设备相关的常规事件。如果要捕获图像对象的所有一般事件，则应使用以下命令启用其单击： lv_obj_set_click(img, true)"
+msgstr ""
+
+#: ../gui/widgets/img.rst:90
+msgid "图片来自于数组"
+msgstr ""
+
+#: ../gui/widgets/label.rst:2
+msgid "标签"
+msgstr ""
+
+#: ../gui/widgets/label.rst:5
+msgid "标签是用于显示文本的基本对象类型。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:9
+msgid "标签只有一个主要部分，称为 LV_LABEL_PART_MAIN 。它使用所有典型的背景属性和文本属性。填充值可用于使文本的区域在相关方向上变小。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:13
+msgid "设定文字 可以在运行时使用 lv_label_set_text(label, \"New text\") 在标签上设置文本。它将动态分配一个缓冲区，并将提供的字符串复制到该缓冲区中。因此，在该函数返回后，无需将传递给 lv_label_set_text 的文本保留在范围内。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:16
+msgid "使用 lv_label_set_text_fmt(label, \"Value: %d\", 15) ，可以使用printf格式设置文本。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:18
+msgid "标签能够显示来自0终止的静态字符缓冲区的文本。为此，请使用 lv_label_set_static_text(label, \"Text\") 。在这种情况下，文本不会存储在动态内存中，而是直接使用给定的缓冲区。这意味着数组不能是在函数退出时超出范围的局部变量。 常数字符串可以安全地与 lv_label_set_static_text 一起使用（除非与 LV_LABEL_LONG_DOT 一起使用，因为它可以就地修改缓冲区），因为它们存储在ROM存储器中，该存储器始终可以访问。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:20
+msgid "也可以使用原始数组作为标签文本。数组不必以 \\0 终止。在这种情况下，文本将与 lv_label_set_text 一样保存到动态存储器中。要设置原始字符数组，请使用 lv_label_set_array_text(label, char_array, size) 函数。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:23
+msgid "越线"
+msgstr ""
+
+#: ../gui/widgets/label.rst:24
+msgid "换行符由标签对象自动处理。可以使用 \\n 换行。例如： \"line1\\nline2\\n\\nline4\""
+msgstr ""
+
+#: ../gui/widgets/label.rst:27
+msgid "长模式"
+msgstr ""
+
+#: ../gui/widgets/label.rst:28
+msgid "默认情况下，标签对象的宽度会自动扩展为文本大小。否则，可以根据几种长模式策略来操纵文本："
+msgstr ""
+
+#: ../gui/widgets/label.rst:30
+msgid "LV_LABEL_LONG_EXPAND - 将对象大小扩展为文本大小（默认）"
+msgstr ""
+
+#: ../gui/widgets/label.rst:32
+msgid "LV_LABEL_LONG_BREAK - 保持对象宽度，断开（换行）过长的线条并扩大对象高度"
+msgstr ""
+
+#: ../gui/widgets/label.rst:34
+msgid "LV_LABEL_LONG_DOT - 保持对象大小，打断文本并在最后一行写点（使用 lv_label_set_static_text 时不支持）"
+msgstr ""
+
+#: ../gui/widgets/label.rst:36
+msgid "LV_LABEL_LONG_SROLL - 保持大小并来回滚动标签"
+msgstr ""
+
+#: ../gui/widgets/label.rst:38
+msgid "LV_LABEL_LONG_SROLL_CIRC - 保持大小并循环滚动标签"
+msgstr ""
+
+#: ../gui/widgets/label.rst:40
+msgid "LV_LABEL_LONG_CROP - 保持大小并裁剪文本"
+msgstr ""
+
+#: ../gui/widgets/label.rst:42
+msgid "可以使用 lv_label_set_long_mode(label, LV_LABEL_LONG_...) 指定长模式"
+msgstr ""
+
+#: ../gui/widgets/label.rst:44
+msgid "重要的是要注意，当创建标签并设置其文本时，标签的大小已扩展为文本大小。除了默认的 LV_LABEL_LONG_EXPAND ，长模式 lv_obj_set_width/height/size() 无效。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:46
+msgid "因此，需要更改长模式，首先设置新的长模式，然后使用 lv_obj_set_width/height/size() 设置大小。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:48
+msgid "另一个重要的注意事项是 LV_LABEL_LONG_DOT 在原地操纵文本缓冲区，以便添加/删除点。当使用 lv_label_set_text 或`` lv_label_set_array_text`` 时，将分配一个单独的缓冲区，并且该实现细节不会被注意。 lv_label_set_static_text 并非如此！如果打算使用 LV_LABEL_LONG_DOT ，则传递给 lv_label_set_static_text 的缓冲区必须可写。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:51
+msgid "文字对齐"
+msgstr ""
+
+#: ../gui/widgets/label.rst:52
+msgid "文本的行可以使用 lv_label_set_align(label, LV_LABEL_ALIGN_LEFT/RIGHT/CENTER) 左右对齐。请注意，它将仅对齐线，而不对齐标签对象本身。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:54
+msgid "标签本身不支持垂直对齐；应该将标签放在更大的容器中，然后将整个标签对象对齐。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:57
+msgid "文字重新着色"
+msgstr ""
+
+#: ../gui/widgets/label.rst:58
+msgid "在文本中，可以使用命令来重新着色部分文本。例如： \"Write a #ff0000 red# word\" 。可以通过 lv_label_set_recolor() 函数分别为每个标签启用此功能。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:60
+msgid "请注意，重新着色只能在一行中进行。因此， \\n 不应在重新着色的文本中使用，或者用 LV_LABEL_LONG_BREAK 换行，否则，新行中的文本将不会重新着色。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:63
+msgid "很长的文字"
+msgstr ""
+
+#: ../gui/widgets/label.rst:64
+msgid "Lvgl通过保存一些额外的数据（~12个字节）来加快绘图速度，可以有效地处理很长的字符（> 40k 个字符）。要启用此功能，请在lv_conf.h中设置 LV_LABEL_LONG_TXT_HINT   1"
+msgstr ""
+
+#: ../gui/widgets/label.rst:68
+msgid "标签可以在字母旁边显示符号（或单独显示）。阅读 字体(font) 部分以了解有关符号的更多信息。"
+msgstr ""
+
+#: ../gui/widgets/label.rst:84
+msgid "文本显示::"
+msgstr ""
+
+#: ../gui/widgets/led.rst:2
+msgid "LED"
+msgstr ""
+
+#: ../gui/widgets/led.rst:3
+msgid "LED是矩形（或圆形）对象。它的亮度可以调节。亮度降低时，LED的颜色会变暗。"
+msgstr ""
+
+#: ../gui/widgets/led.rst:8
+msgid "LED只有一个主要部分，称为 LV_LED_PART_MAIN ，它使用所有典型的背景样式属性。"
+msgstr ""
+
+#: ../gui/widgets/led.rst:12
+msgid "亮度 可以使用 lv.Led.set_bright(bright) 设置它们的亮度。亮度应介于0（最暗）和255（最亮）之间。"
+msgstr ""
+
+#: ../gui/widgets/led.rst:16
+msgid "切换"
+msgstr ""
+
+#: ../gui/widgets/led.rst:17
+msgid "使用 lv.Led.on() 和 lv.Led.off() 将亮度设置为预定义的ON或OFF值。 lv.Led.toggle() 在ON和OFF状态之间切换。"
+msgstr ""
+
+#: ../gui/widgets/led.rst:21
+msgid "仅支持 通用事件"
+msgstr ""
+
+#: ../gui/widgets/led.rst:26
+#: ../gui/widgets/msgbox.rst:47
+#: ../gui/widgets/slider.rst:51
+#: ../gui/widgets/switch.rst:45
+msgid "按键处理"
+msgstr ""
+
+#: ../gui/widgets/led.rst:33
+msgid "LED灯闪烁::"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:2
+msgid "消息框(lv_msgbox)"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:6
+msgid "消息框充当弹出窗口。它们由背景容器，标签和按钮的 按钮矩阵(lv_imgbtn) 构建而成。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:8
+msgid "文本将自动分成多行（具有 LV_LABEL_LONG_MODE_BREAK ），高度将自动设置为包含文本和按钮（ LV_FIT_TIGHT 垂直放置）"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:13
+msgid "消息框的主要部分称为 LV_MSGBOX_PART_MAIN ，它使用所有典型的背景样式属性。使用填充会增加侧面的空间。pad_inner将在文本和按钮之间添加空格。标签样式属性会影响文本样式。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:15
+msgid "按钮部分与 按钮矩阵(lv_imgbtn) 的情况相同："
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:17
+msgid "LV_MSGBOX_PART_BTN_BG 按钮的背景"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:19
+msgid "LV_MSGBOX_PART_BTN 按钮"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:23
+msgid "设置文本 要设置文本，请使用 lv_msgbox_set_text(msgbox, \"My text\") 函数。不仅将保存文本指针，而且文本也可以位于局部变量中。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:26
+msgid "添加按钮 要添加按钮，请使用 lv_msgbox_add_btns(msgbox, btn_str) 函数。需要指定按钮的文本，例如 const char * btn_str[] = {\"Apply\", \"Close\", \"\"} 。有关更多信息，请访问Button矩阵文档。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:29
+msgid "仅当首次调用 lv_msgbox_add_btns() 时，才会创建 按钮矩阵(lv_imgbtn)。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:31
+msgid "自动关闭 使用 lv_msgbox_start_auto_close(mbox, delay) 可以在动画 延迟(delay) 了几毫秒后自动关闭消息框。 lv_mbox_stop_auto_close(mbox) 函数停止启动的自动关闭。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:34
+msgid "关闭动画的持续时间可以通过 lv_mbox_set_anim_time(mbox, anim_time) 设置。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:40
+msgid "LV_EVENT_VALUE_CHANGED 单击按钮时发送。事件数据设置为单击按钮的ID。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:42
+msgid "消息框具有一个默认的事件回调，当单击按钮时，该事件回调将自行关闭。"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:48
+msgid "消息框可处理以下按键："
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:50
+msgid "LV_KEY_RIGHT/DOWN 选择下一个按钮"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:52
+msgid "LV_KEY_LEFT/TOP 选择上一个按钮"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:54
+msgid "LV_KEY_ENTER 单击选定的按钮"
+msgstr ""
+
+#: ../gui/widgets/msgbox.rst:60
+msgid "简单消息框::"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:2
+msgid "滑杆(lv_slider)"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:5
+msgid "滑杆对象看起来像是带有旋钮的 进度条(lv_bar) 。可以拖动该旋钮以设置一个值。滑块也可以是垂直或水平的。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:10
+msgid "滑块的主要部分称为 LV_SLIDER_PART_BG ，它使用典型的背景样式属性。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:12
+msgid "LV_SLIDER_PART_INDIC 是一个虚拟部件，它也使用所有典型的背景属性。默认情况下，指标的最大大小与背景的大小相同，但在 LV_SLIDER_PART_BG 中设置正填充值将使指标变小。 （负值会使它变大） 如果在指示器上使用了值样式属性，则将根据指示器的当前大小来计算对齐方式。例如，中心对齐值始终显示在指示器的中间，无论其当前大小如何。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:14
+msgid "LV_SLIDER_PART_KNOB 是一个虚拟部件，使用所有典型的背景属性来描述旋钮。与指示器类似，值文本也与旋钮的当前位置和大小对齐。默认情况下，旋钮是正方形（具有半径），其边长等于滑块的较小边。 可以使用填充值使旋钮变大。填充值也可以是不对称的。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:19
+msgid "值和范围"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:20
+msgid "要设置初始值，请使用 lv_slider_set_value(slider, new_value, LV_ANIM_ON/OFF) 。 lv_slider_set_anim_time(slider, anim_time) 设置动画时间（以毫秒为单位）。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:22
+msgid "要指定范围（最小，最大值），可以使用 lv_slider_set_range(slider, min , max) 。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:25
+msgid "对称范围"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:26
+msgid "除普通类型外，滑块还可以配置为两种其他类型："
+msgstr ""
+
+#: ../gui/widgets/slider.rst:28
+msgid "LV_SLIDER_TYPE_NORMAL 普通型"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:30
+msgid "LV_SLIDER_TYPE_SYMMETRICAL 将指标对称地绘制为零（从零开始，从左到右）"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:32
+msgid "LV_SLIDER_TYPE_RANGE 允许为左（起始）值使用附加旋钮。 （可与 lv_slider_set/get_left_value() 一起使用）"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:34
+msgid "可以使用 lv_slider_set_type(slider, LV_SLIDER_TYPE_...) 更改类型"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:37
+msgid "仅旋钮模式"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:38
+msgid "通常，可以通过拖动旋钮或单击滑块来调整滑块。在后一种情况下，旋钮移动到所单击的点，并且滑块值相应地变化。在某些情况下，希望将滑块设置为仅在拖动旋钮时做出反应。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:40
+msgid "通过调用 lv_obj_set_adv_hittest(slider, true); 启用此功能。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:44
+msgid "除了 通用事件 ，滑杆还支持以下 特殊事件 ："
+msgstr ""
+
+#: ../gui/widgets/slider.rst:46
+msgid "LV_EVENT_VALUE_CHANGED 在使用键拖动或更改滑块时发送。拖动滑块时（仅当释放时）连续发送事件。使用lv_slider_is_dragged确定滑块是被拖动还是刚刚释放。"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:52
+msgid "滑杆可处理以下按键："
+msgstr ""
+
+#: ../gui/widgets/slider.rst:54
+msgid "LV_KEY_UP, LV_KEY_RIGHT 将滑块的值增加1"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:56
+msgid "LV_KEY_DOWN, LV_KEY_LEFT 将滑块的值减1"
+msgstr ""
+
+#: ../gui/widgets/slider.rst:62
+msgid "自定义样式的滑块::"
+msgstr ""
+
+#: ../gui/widgets/spinbox.rst:2
+msgid "数字调整框(lv_spinbox)"
+msgstr ""
+
+#: ../gui/widgets/spinbox.rst:3
+msgid "概述 数字调整框包含一个数字文本，可通过按键或API函数增加或减少数字。 数字调整框的下面是修改后的 文本框(lv_textarea) 。"
+msgstr ""
+
+#: ../gui/widgets/spinner.rst:2
+msgid "旋转器(lv_spinner)"
+msgstr ""
+
+#: ../gui/widgets/spinner.rst:3
+msgid "概述 旋转器对象是边界上的旋转弧，实现旋转加载效果。"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:2
+msgid "开关(lv_switch)"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:5
+msgid "开关可用于打开/关闭某物。它看起来像一个小滑块。"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:10
+msgid "开关使用以下部分"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:12
+msgid "LV_SWITCH_PART_BG : 主要部分"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:14
+msgid "LV_SWITCH_PART_INDIC : 指标（虚拟部分）"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:16
+msgid "LV_SWITCH_PART_KNOB : 旋钮（虚拟部分）"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:18
+msgid "零件和样式与 滑杆(lv_slider) 情况相同。"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:23
+msgid "变更状态"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:24
+msgid "可以通过单击或通过下面的函数更改开关的状态："
+msgstr ""
+
+#: ../gui/widgets/switch.rst:26
+msgid "lv_switch_on(switch, LV_ANIM_ON/OFF) 开"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:28
+msgid "lv_switch_off(switch, LV_ANIM_ON/OFF) 关"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:30
+msgid "lv_switch_toggle(switch, LV_ANOM_ON/OFF) 切换开关的位置"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:33
+msgid "动画时间"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:34
+msgid "切换开关状态时的动画时间可以使用 lv_switch_set_anim_time(switch, anim_time) 进行调整。"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:38
+msgid "除了 通用事件 ，开关还支持以下 特殊事件 ："
+msgstr ""
+
+#: ../gui/widgets/switch.rst:40
+msgid "LV_EVENT_VALUE_CHANGED 在开关更改状态时发送。"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:46
+msgid "开关可处理以下按键："
+msgstr ""
+
+#: ../gui/widgets/switch.rst:48
+msgid "LV_KEY_UP, LV_KEY_RIGHT 打开滑块"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:50
+msgid "LV_KEY_DOWN, LV_KEY_LEFT 关闭滑块"
+msgstr ""
+
+#: ../gui/widgets/switch.rst:56
+msgid "简单开关::"
+msgstr ""
+
+#: ../gui/widgets/table.rst:2
+msgid "表格(lv_table)"
+msgstr ""
+
+#: ../gui/widgets/table.rst:3
+msgid "概述 像往常一样，表格是从包含文本的行，列和单元格构建的。"
+msgstr ""
+
+#: ../gui/widgets/table.rst:6
+msgid "表格对象的权重非常轻，因为仅存储了文本。没有为单元创建任何实际对象，但它们是动态绘制的。"
+msgstr ""
+
+#: ../gui/widgets/textarea.rst:2
+msgid "文本框(lv_textarea)"
+msgstr ""
+
+#: ../gui/widgets/textarea.rst:3
+msgid "概述 文本框是一个带有标签和光标的 页面(lv_page) 。可以在其中添加文本或字符。长行被换行，并且当文本变得足够长时，可以滚动文本区域。"
+msgstr ""
