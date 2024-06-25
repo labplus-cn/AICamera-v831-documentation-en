@@ -184,7 +184,7 @@ msgstr "6"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid "存储"
-msgstr "storage"
+msgstr "Storage"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid "16G TF卡"
@@ -200,7 +200,7 @@ msgstr "7"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid "按键A/B"
-msgstr "Button A/B"
+msgstr "Button S1/S2"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid "8"
@@ -220,7 +220,7 @@ msgstr "9"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid "麦克风"
-msgstr "microphone"
+msgstr "Microphone"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid ""
@@ -240,7 +240,7 @@ msgstr "10"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid "扬声器"
-msgstr "speaker"
+msgstr "Speaker"
 
 #: ../hardware_introduction/5_hardware_parameters.rst:1
 msgid "1609喇叭,输出功率0.5W,音频输出"

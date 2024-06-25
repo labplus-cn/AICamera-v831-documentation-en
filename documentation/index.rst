@@ -50,30 +50,22 @@ AI摄像头帮助文档
 
 .. toctree::
     :maxdepth: 3
-    :caption: API
+    :caption: 4.API
     :titlesonly:
     :numbered: 
 
-    
+    api/index.rst
 
-.. toctree::
-    :maxdepth: 2
-    :caption: 五、教程
-
-    tutorials/index
-
-    
-.. 这是二级目录树的使用范例
 
 .. toctree::
    :maxdepth: 2
-   :caption: 八、常见问题
+   :caption: 五、常见问题
 
    faq/index
    faq/technical_exchange
 
 .. toctree::
    :maxdepth: 1
-   :caption: 九、版权
+   :caption: 六、版权
 
    LICENSE

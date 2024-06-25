@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.0\n"
 
-#: ../tutorials/index.rst:2
+#: ../api/index.rst:2
 msgid "待更新"
 msgstr "pending upgrade"
 

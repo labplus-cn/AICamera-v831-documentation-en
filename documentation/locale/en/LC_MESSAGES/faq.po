@@ -25,7 +25,7 @@ msgstr "FAQ Frequently asked questions"
 
 #: ../faq/technical_exchange.rst:2
 msgid "交流"
-msgstr "comminicate"
+msgstr "Comminicate"
 
 #: ../faq/technical_exchange.rst:4
 msgid "论坛： `论坛链接 <https://labplus.cn/forum>`_"

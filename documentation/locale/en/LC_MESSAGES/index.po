@@ -35,17 +35,13 @@ msgstr "3. Examples"
 msgid "API"
 msgstr "API"
 
-#: ../index.rst:58
-msgid "五、教程"
-msgstr "5. Tutorial"
-
 #: ../index.rst:67
-msgid "八、常见问题"
-msgstr "8. Frequently Asked Questions"
+msgid "五、常见问题"
+msgstr "5. Frequently Asked Questions"
 
 #: ../index.rst:74
-msgid "九、版权"
-msgstr "9. Copyright"
+msgid "六、版权"
+msgstr "6. Copyright"
 
 #: ../index.rst:5
 msgid "AI摄像头帮助文档"

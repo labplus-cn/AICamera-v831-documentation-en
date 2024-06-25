@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'AI Camera 3.0'
-copyright = '2024, 深圳盛思科教文化有限公司 www.labplus.cn'
-author = '深圳盛思科教文化有限公司'
+copyright = '2024, Shenzhen Sheng Si Science & Education Culture Co., Ltd. www.labplus.cn'
+author = 'Shenzhen Sheng Si Science & Education Culture Co., Ltd.'
 
 
 # -- General configuration ---------------------------------------------------
