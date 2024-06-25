@@ -119,7 +119,7 @@ msgstr "QR code recognition"
 
 #: ../example/8_self_learning_classifier.rst:2
 msgid "自学习分类"
-msgstr "self learning classifier"
+msgstr "Self learning classifier"
 
 #: ../example/8_self_learning_classifier.rst:5
 msgid "训练保存模型"
